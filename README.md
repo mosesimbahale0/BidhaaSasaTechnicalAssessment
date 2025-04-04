@@ -7,3 +7,38 @@ This project demonstrates how to manage a list of tasks using Salesforce. It inc
 sf project deploy start --target-org mosesimbahale0-35wq@force.com
 
 
+
+# Bug 
+
+ Status: Failed
+ Deploy ID: 0AfQH00000K1Ocf0AF
+ Target Org: mosesimbahale0-35wq@force.com
+ Elapsed Time: 3.33s
+
+
+Component Failures [8]
+┌──────────────────────────┬──────────────────────────┬──────────────────────────────────────────┬─────────────┐
+│ Type                     │ Name                     │ Problem                                  │ Line:Column │
+├──────────────────────────┼──────────────────────────┼──────────────────────────────────────────┼─────────────┤
+│ ApexClass                │ MarkOverdueTasksComplete │ Not available for deploy for this        │             │
+│                          │                          │ organization                             │             │
+│ ApexClass                │ MarkOverdueTasksComplete │ Not available for deploy for this        │             │
+│                          │                          │ organization                             │             │
+│ ApexClass                │ TaskController           │ Not available for deploy for this        │             │
+│                          │                          │ organization                             │             │
+│ ApexClass                │ TaskController           │ Not available for deploy for this        │             │
+│                          │                          │ organization                             │             │
+│ ApexClass                │ TaskRestService          │ Not available for deploy for this        │             │
+│                          │                          │ organization                             │             │
+│ ApexClass                │ TaskRestService          │ Not available for deploy for this        │             │
+│                          │                          │ organization                             │             │
+│ CustomObject             │ Task__c                  │ reached maximum number of custom objects │             │
+│ LightningComponentBundle │ taskList                 │ Cannot find Lightning Component Bundle   │             │
+│                          │                          │ taskList.                                │             │
+└──────────────────────────┴──────────────────────────┴──────────────────────────────────────────┴─────────────┘
+
+
+Test Results Summary
+Passing: 0
+Failing: 0
+Total: 0
